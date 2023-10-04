@@ -1,21 +1,16 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img
-      src="https://static.onecms.io/wp-content/uploads/sites/6/2018/01/mcdirma_ec058-2000.jpg"
-      alt=""
-      srcset=""
-    />
+    <img src="{{ photoCover }}" alt="" srcset="" />
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+    <h1>
+      <a href="#">{{ cardTitle }}</a>
+    </h1>
   </div>
   <div class="big-card__description">
     <p>
-      <a href="#">
-        Texto de exemplo para descrição, texto de exemplo para descrição, texto
-        de exemplo para descrição
-      </a>
+      <a href="#">{{ cardDescription }}</a>
     </p>
   </div>
 </div>
